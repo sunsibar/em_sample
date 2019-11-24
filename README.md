@@ -1,8 +1,8 @@
-# em_sample
+# EM sample
 Simple expectation-maximization implementation for gaussian mixture models
 
 
-Resources used:
+### Resources used:
 
 For understanding the theory, and why the E and M terms are exactly what they are:
 https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/slides/Likelihood_EM_HMM_Kalman.pdf
