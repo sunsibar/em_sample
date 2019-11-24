@@ -194,8 +194,8 @@ def main(display=True):
 
 
 if __name__ == '__main__':
-    np.random.seed(33)  # 22: works; 2: strange, but not wrong, 24: good if convergence criterion strict; 124: wrong but not wrong
-    # Failure cases: seed = 33, both for k=2 and k=3.
+    np.random.seed(33)  
+    # Failure cases: seed = 33, both for k=9 and 2 out of 20 iterations
     import traceback
     num_errors = 0
     for i in range(20):
